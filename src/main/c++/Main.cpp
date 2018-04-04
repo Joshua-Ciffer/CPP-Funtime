@@ -6,6 +6,15 @@
 
 using namespace std;
 
+void helloWorld();
+void temperatureConversion();
+void doMath();
+
+int main() {
+	doMath();
+	return 0;
+}
+
 /*
  * cout is an object from the std namespace.  It is the standard console output stream. cout is utilized with the << operator.  This << operator sends
  * data to the object to be written to the console.  << functions similarily to the concatenation operator in java.  endl is also an object from std
@@ -33,7 +42,3 @@ void doMath() {
 	sqrt(34);
 }
 
-int main() {
-	doMath();
-	return 0;
-}
