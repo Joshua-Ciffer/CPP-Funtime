@@ -1,5 +1,5 @@
 // Author: Joshua Ciffer
-// Version: 04/03/2018
+// Version: 04/04/2018
 
 #include <iostream>
 #include <cmath>
@@ -9,9 +9,10 @@ using namespace std;
 void helloWorld();
 void temperatureConversion();
 void doMath();
+void pointers();
 
 int main() {
-	doMath();
+	pointers();
 	return 0;
 }
 
@@ -40,5 +41,16 @@ void temperatureConversion() {
  */
 void doMath() {
 	sqrt(34);
+}
+
+/*
+ *
+ */
+void pointers() {
+	int x = 5;
+	int *d = &x;
+	cout << &x << endl;
+	cout << x << endl;
+	cout << *d << endl;
 }
 
