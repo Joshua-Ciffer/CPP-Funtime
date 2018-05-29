@@ -1,10 +1,14 @@
 # Author: Joshua Ciffer
-# Date: 03/19/2018
+# Date: 05/29 /2018
 def main():
-	print("Enter a word faggot: ")
-	word = input()
-	print("How many times should the word be repeated?: ")
-	num = int(input())
-	print(word * num, "is", str(len(word * num)), "characters long.")
+	print("Enter a word faggot: ", end="")
+	word = int(input())
+	print(word)
+
 	
-main()
+def addShit(x, y):
+	z = x + y
+	return z
+
+	
+print(addShit(5, 5))
