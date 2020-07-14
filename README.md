@@ -1,2 +1,2 @@
 # Playground
-This is where how I learn to do things.
+This is where I learn things.
